@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sender</title>
+
+    <!-- meta tag SEO -->
+    <meta name="description" content="Замовити послуги з прибирання - прибирання квартири чи дому за один день професійно.">
+    <meta name="keywords" content="Заявка, заявка на прибирання, заявка на клінінг, замовити послуги клінінг, замовити прибирання, заявка в клінінг компанію, залишити дані для зв'явзку з клінінг компанією">
+    <meta name="author" content="Tsiba Roman Serhiyovych">
+    <meta name="copyright" content="Tsiba Roman Serhiyovych">
+    
+    <link rel="stylesheet" href="styleSender.css">
+
+    <!-- fonts -->
+    <!-- this -> style.css -->
+</head>
+<body>
+    <div class="container_block-form">
+        <div class="block-form">
+            <h1>ЗАМОВЛЕННЯ ПОСЛУГ</h1>
+            <div class="container_form">
+
+                <form id="form" class="form" action="sender.php" method="post">
+
+                    <label for="name" class="label-form">ПІБ</label>
+                    <input id="Name" name="name" class="input-form" required maxlength="40">
+                    
+                    <label for="number" style="margin-top: 40px;" class="label-form">Номер телефону</label>
+                    <input id="tell" name="number" style="margin-bottom: 30px;" class="input-form" required maxlength="13">
+
+                    <label class="info_label-form">Після надсилання заявки вам <br> перетелефонує наш менеджер</label>
+
+                    <button type="submit" id="sendBtn" name="submitBtn" class="send_btn">НАДІСЛАТИ ЗАЯВКУ</button>
+                    <p id="successfully" class="successfully_sent">УСПІШНО НАДІСЛАНО!</p>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <script src="validator.js"></script>
+</body>
+</html>
