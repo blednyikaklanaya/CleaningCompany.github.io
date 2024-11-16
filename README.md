@@ -9,11 +9,3 @@ You can also use OpenServer and other server emulators.
 also you can watch this <a href="https://blednyikaklanaya.github.io/CleaningCompany.github.io/">link<a/>
 ### Clone this repo. 
 Next install OpenServer or other server emulators, also you can push your personal host.
- 
- 
- 
-<br/><br/><br/><br/><br/><br/>
-
-
-
-<img width="300px" src="https://camo.githubusercontent.com/1c6b26008292780e41ea4a4b0a005b3bfdadb5792e5a21929608f2eea02f1706/68747470733a2f2f6373342e70696b6162752e72752f706f73745f696d672f323031362f30382f30332f31312f313437303234393834303133373236313934342e6a7067" />
